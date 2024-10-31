@@ -1,0 +1,47 @@
+div.pinterest_feeds{
+
+  display: block;
+}
+
+div.feed_item{
+   vertical-align:middle; 
+   overflow:hidden !important;
+   margin-left:auto;
+   margin-right:auto;
+   display:inline-block;
+   -webkit-transition: width 1.5s, height 1.5s, -webkit-transform 1.5s; /* Safari */
+   transition: width 1.5s, height 1.5s, transform 1.5s;
+   -webkit-animation: mymove 1s linear; /* Safari 4.0 - 8.0 */
+   animation: mymove 1s linear;
+   
+}
+
+
+
+
+
+div.pinterest__follow_icon{
+	text-align:center !important;
+
+}
+
+
+@keyframes mymove {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+div.feed_item img{
+  box-shadow: 5px 2px 25px rgba(212, 45, 47, 0.5);
+}
+div.feed_item img:hover{
+ 
+  transition: width 1s, height 1s;
+  
+}
+
+
+
+#pinterest_widget_follow:before{
+  font-family: dashicons;
+  content: "\f192";
+}

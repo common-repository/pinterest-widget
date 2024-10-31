@@ -1,0 +1,27 @@
+{
+  "name": "pinterest_widget",
+  "version": "3.5.0",
+  "description": "pinterest widget for Wordpress which displays image feeds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ujw0l/Pinterest_widget.git"
+  },
+  "keywords": [
+    "pinterest",
+    "widget",
+    "worpress"
+  ],
+  "author": "UjW0L",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ujw0l/Pinterest_widget/issues"
+  },
+  "homepage": "https://wordpress.org/plugins/pinterest-widget/",
+  "dependencies": {
+    "js-masonry": "^1.0.3"
+  }
+}
